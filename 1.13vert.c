@@ -7,7 +7,7 @@ int palabra_mayor(int *m) {
       mayor = m[i];
     }
   }
-  return 0;
+  return mayor;
 }
 
 int main() {
@@ -27,6 +27,7 @@ int main() {
   // En esta parte estamos trabajando columnas x filas ya que las columnas
   // depende del tamaño de la palabra mas grande
   w_mayor = palabra_mayor(longitud);
+  printf("%d", w_mayor);
   for (int i = 0; i < w_mayor; i++) {
     for (int j = 0; j < npalabras; j++) {
       if ((w_mayor - i) <= longitud[j]) {

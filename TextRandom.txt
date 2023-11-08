@@ -1,4 +1,1 @@
-UNIX es muy simple,
-solo que se necesita
-ser un genio para
-entender su simplicidad
+UNIX es muy simple, solo que se necesita ser un genio para entender su simplicidad.
